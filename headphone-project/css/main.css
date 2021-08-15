@@ -8,6 +8,8 @@
 @import "landing-page/latest.css";
 @import "landing-page/footer.css";
 
+
+
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -40,3 +42,4 @@ input::placeholder{
 /*Mobile Devices*/
 @media only screen and (max-width: 767px) {
  
+}

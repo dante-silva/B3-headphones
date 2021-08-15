@@ -25,9 +25,17 @@ header .logo{
 header .logo img{
     width: 25px;
 }
+.menu-container{
+    display: flex;
+    justify-content: center;
+    -webkit-flex-align: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
 header .menu{
-    display: inline-block;
-    float: left;
+    /* display: inline-block;
+    float: left; */
     position: relative;
     top: 20px;
 
@@ -37,13 +45,21 @@ text-transform: uppercase;
 
 }
 header .header-buttons{
-    display: inline-block;
-    float: right;
+    /* display: inline-block;
+    float: right; */
+    margin-top: 2em;
 
+}
+@media only screen and (min-width: 800px) {
+    header .header-buttons{
+        margin-top: 0;
+    }
 }
 header .header-buttons .blue-btn{
     background: #6066f2;
-    padding: 14px 46px;
+    /* padding: 14px 46px; */
+    padding: 0.5rem 2rem;
+
     color: white;
     border-radius: 35px;
     text-transform: uppercase;
@@ -57,7 +73,9 @@ header .header-buttons .blue-btn .fas{
 }
 header .header-buttons .orange-btn{
     background: #feaf3b;
-    padding: 14px 46px;
+    /* padding: 14px 46px; */
+    padding: 0.5rem 3.641rem;
+
     color: white;
     border-radius: 35px;
     text-transform: uppercase;
@@ -68,9 +86,9 @@ header .header-buttons .orange-btn{
 header .header-buttons .orange-btn .fas{
     margin-left: 15px;
 }
-header .space{
 
-}
+
+
 /*Laptops*/
 @media only screen and (max-width: 1215px) {
 

@@ -16,6 +16,7 @@ footer h2 span{
     color: #fea83b;
 }
 footer .menu {
+    padding: 0;
     margin-bottom: 20px;
 }
  footer .menu li{
@@ -33,7 +34,10 @@ footer p{
     font-size: .8rem;
     font-weight: 300;
     margin-bottom: 40px;
-    margin-left: 40px;
+    /* margin-left: 40px; */
+}
+footer .social-media{
+    padding: 0;
 }
 footer .social-media li{
     display: inline-block;
